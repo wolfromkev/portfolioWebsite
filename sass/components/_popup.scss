@@ -32,12 +32,12 @@
 	}
 
 	&__left {
-		width: 33.333333%;
+		width: 66.666666%;
 		display: table-cell;
 	}
 
 	&__right {
-		width: 66.6666667%;
+		width: 33.333333%;
 		display: table-cell;
 		vertical-align: middle;
 		padding: 3rem 5rem;
@@ -51,19 +51,7 @@
 	&__text {
 		font-size: 1.4rem;
 		margin-bottom: 4rem;
-
-		-moz-column-count: 2;
-		-moz-column-gap: 4rem; //1em = 14px;
-		-moz-column-rule: 1px solid $color-grey-light-2;
-
-		column-count: 2;
-		column-gap: 4rem; //1em = 14px;
-		column-rule: 1px solid $color-grey-light-2;
-
-		-moz-hyphens: auto;
-		-ms-hyphens: auto;
-		-webkit-hyphens: auto;
-		hyphens: auto;
+		color: white;
 	}
 
 	//Open states
@@ -95,4 +83,31 @@
 			color: $color-primary;
 		}
 	}
+}
+
+.popuptext_color {
+	color: white;
+}
+
+.popup_button_div {
+	display: grid;
+	justify-content: left;
+	text-align: center;
+}
+
+.live_demo_popup {
+	background: linear-gradient(
+		to right bottom,
+		rgba($color-primary-light, 0.8),
+		rgba($color-primary, 0.8)
+	);
+	color: white;
+}
+.sourcecode_popup_button {
+	background: linear-gradient(
+		to right bottom,
+		rgba($color-primary-light, 0.8),
+		rgba($color-primary, 0.8)
+	);
+	color: white;
 }

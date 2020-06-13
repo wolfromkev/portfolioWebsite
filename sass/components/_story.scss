@@ -2,11 +2,11 @@
 	width: 75%;
 	margin: 0 auto;
 	box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
-	background-color: rgba($color-white, 0.6);
+	background-color: rgba($color-primary-light, 0.7);
 	border-radius: 3px;
 	padding: 2rem 6rem;
 	font-size: $default-font-size;
-	color: $color-grey-dark-3;
+	color: $color-white;
 
 	@include respond(tab-port) {
 		width: 100%;

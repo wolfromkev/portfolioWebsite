@@ -81,7 +81,7 @@ body {
   color: #777; }
 
 .heading-primary {
-  color: #333;
+  color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -116,7 +116,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #ffb900, #ff7730);
+  background-image: linear-gradient(to right, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8));
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
@@ -177,7 +177,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .15;
+  opacity: 0.15;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -210,15 +210,15 @@ body {
 
 .btn--white {
   background-color: #333;
-  color: #ffb900; }
+  color: rgba(255, 183, 0, 0.945); }
   .btn--white::after {
     background-color: #333; }
 
 .btn--green {
-  background-color: #ffb900;
+  background-color: rgba(255, 183, 0, 0.945);
   color: #333; }
   .btn--green::after {
-    background-color: #ff7730; }
+    background-color: rgba(255, 183, 0, 0.945); }
 
 .btn::after {
   content: '';
@@ -238,15 +238,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #ffb900;
+  color: rgba(255, 183, 0, 0.945);
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #ffb900;
+  border-bottom: 1px solid rgba(235, 170, 0, 0.8);
   padding: 3px;
   transition: all 0.2s; }
 
 .btn-text:hover {
-  background-color: #ffb900;
+  background-color: rgba(255, 183, 0, 0.945);
   color: #333;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -277,11 +277,11 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -295,11 +295,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/dogbook2.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/dogbook2.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/recipeek.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/recipeek.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/sandwhichStacker.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/sandwhichStacker.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -315,11 +315,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(255, 185, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(235, 170, 0, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(255, 185, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(235, 170, 0, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(255, 185, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 230, 0, 0.85), rgba(235, 170, 0, 0.85)); }
   .card__details {
     padding: 3rem;
     color: #eee; }
@@ -438,7 +438,7 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #ffb900, #ff7730);
+    background-image: linear-gradient(to right, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8));
     -webkit-background-clip: text;
     color: transparent; }
     @media only screen and (max-width: 56.25em) {
@@ -478,10 +478,10 @@ body {
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
   .popup__left {
-    width: 33.333333%;
+    width: 66.666666%;
     display: table-cell; }
   .popup__right {
-    width: 66.6666667%;
+    width: 33.333333%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
@@ -491,16 +491,7 @@ body {
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    -moz-column-count: 2;
-    -moz-column-gap: 4rem;
-    -moz-column-rule: 1px solid #eee;
-    column-count: 2;
-    column-gap: 4rem;
-    column-rule: 1px solid #eee;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto; }
+    color: white; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -520,15 +511,31 @@ body {
   .popup__close:hover {
     color: #ff7730; }
 
+.popuptext_color {
+  color: white; }
+
+.popup_button_div {
+  display: grid;
+  justify-content: left;
+  text-align: center; }
+
+.live_demo_popup {
+  background: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(255, 119, 48, 0.8));
+  color: white; }
+
+.sourcecode_popup_button {
+  background: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(255, 119, 48, 0.8));
+  color: white; }
+
 .story {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(235, 170, 0, 0.7);
   border-radius: 3px;
   padding: 2rem 6rem;
   font-size: 1.6rem;
-  color: #333; }
+  color: #fff; }
   @media only screen and (max-width: 56.25em) {
     .story {
       width: 100%;
@@ -660,7 +667,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/headerPhoto.jpg);
+  background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/headerPhoto.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -671,7 +678,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/headerPhoto.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/headerPhoto.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -699,7 +706,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -726,7 +733,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+  background-image: linear-gradient(to right bottom, rgba(235, 170, 0, 0.8), rgba(201, 69, 0, 0.8)); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }

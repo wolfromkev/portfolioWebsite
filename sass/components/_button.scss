@@ -35,7 +35,7 @@
 
 	&--white {
 		background-color: $color-grey-dark-3;
-		color: $color-primary-light;
+		color: rgba(255, 183, 0, 0.945);
 
 		&::after {
 			background-color: $color-grey-dark-3;
@@ -43,11 +43,11 @@
 	}
 
 	&--green {
-		background-color: $color-primary-light;
+		background-color: rgba(255, 183, 0, 0.945);
 		color: $color-grey-dark-3;
 
 		&::after {
-			background-color: $color-primary;
+			background-color: rgba(255, 183, 0, 0.945);
 		}
 	}
 
@@ -74,7 +74,7 @@
 	&:link,
 	&:visited {
 		font-size: $default-font-size;
-		color: $color-primary-light;
+		color: rgba(255, 183, 0, 0.945);
 		display: inline-block;
 		text-decoration: none;
 		border-bottom: 1px solid $color-primary-light;
@@ -83,7 +83,7 @@
 	}
 
 	&:hover {
-		background-color: $color-primary-light;
+		background-color: rgba(255, 183, 0, 0.945);
 		color: $color-grey-dark-3;
 		box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
 		transform: translateY(-2px);
